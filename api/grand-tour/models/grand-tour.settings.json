@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grand_tours",
+  "info": {
+    "name": "Tour",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "aboutToursText1": {
+      "type": "text"
+    },
+    "aboutToursText2": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "music_card": {
+      "model": "music-card"
+    },
+    "booblePicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "excursion_card": {
+      "model": "excursion-card"
+    },
+    "all_inclusive_card": {
+      "model": "excursion-card"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "music_cards",
+  "info": {
+    "name": "MusicCard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "music": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

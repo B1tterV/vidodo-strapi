@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/audio-cards",
+      "handler": "audio-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/audio-cards/count",
+      "handler": "audio-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/audio-cards/:id",
+      "handler": "audio-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/audio-cards",
+      "handler": "audio-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/audio-cards/:id",
+      "handler": "audio-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/audio-cards/:id",
+      "handler": "audio-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

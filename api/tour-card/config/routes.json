@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tour-cards",
+      "handler": "tour-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tour-cards/count",
+      "handler": "tour-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tour-cards/:id",
+      "handler": "tour-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tour-cards",
+      "handler": "tour-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tour-cards/:id",
+      "handler": "tour-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tour-cards/:id",
+      "handler": "tour-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

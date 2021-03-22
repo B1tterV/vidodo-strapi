@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "excursion_cards",
+  "info": {
+    "name": "ExcursionCard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sights": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "string"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "footerText": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

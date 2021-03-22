@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/music-cards",
+      "handler": "music-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/music-cards/count",
+      "handler": "music-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/music-cards/:id",
+      "handler": "music-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/music-cards",
+      "handler": "music-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/music-cards/:id",
+      "handler": "music-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/music-cards/:id",
+      "handler": "music-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

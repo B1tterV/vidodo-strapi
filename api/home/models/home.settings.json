@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "secondTitle": {
+      "type": "string"
+    },
+    "thirdTitle": {
+      "type": "string"
+    },
+    "fourthTitle": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "waveDescription": {
+      "type": "string"
+    },
+    "waveBubbleText1": {
+      "type": "string"
+    },
+    "waveBubbleText2": {
+      "type": "string"
+    },
+    "waveBubbleText3": {
+      "type": "string"
+    },
+    "waveBubbleText4": {
+      "type": "string"
+    },
+    "waveBubbleText5": {
+      "type": "string"
+    },
+    "bubbleTitle1": {
+      "type": "string"
+    },
+    "bubbleTitle2": {
+      "type": "string"
+    },
+    "bubbleTitle3": {
+      "type": "string"
+    },
+    "bubbleTitle4": {
+      "type": "string"
+    },
+    "bubbleTitle5": {
+      "type": "string"
+    },
+    "bubbleTitle6": {
+      "type": "string"
+    },
+    "bubbleDescription1": {
+      "type": "text"
+    },
+    "bubbleDescription2": {
+      "type": "text"
+    },
+    "bubbleDescription3": {
+      "type": "text"
+    },
+    "bubbleDescription4": {
+      "type": "text"
+    },
+    "bubbleDescription5": {
+      "type": "text"
+    },
+    "bubbleDescription6": {
+      "type": "text"
+    }
+  }
+}

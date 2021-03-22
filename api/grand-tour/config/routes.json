@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/grand-tours",
+      "handler": "grand-tour.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grand-tours/count",
+      "handler": "grand-tour.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grand-tours/:id",
+      "handler": "grand-tour.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/grand-tours",
+      "handler": "grand-tour.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/grand-tours/:id",
+      "handler": "grand-tour.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/grand-tours/:id",
+      "handler": "grand-tour.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
