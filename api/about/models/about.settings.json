@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "headerTitle": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "waveBubbleTitle1": {
+      "type": "string"
+    },
+    "waveBubbleTitle2": {
+      "type": "string"
+    },
+    "waveBubbleTitle3": {
+      "type": "string"
+    },
+    "waveBubbleTitle4": {
+      "type": "string"
+    },
+    "waveBubbleTitle5": {
+      "type": "string"
+    },
+    "bubbleTitle1": {
+      "type": "string"
+    },
+    "bubbleTitle2": {
+      "type": "string"
+    },
+    "bubbleTitle3": {
+      "type": "string"
+    },
+    "bubbleTitle4": {
+      "type": "string"
+    },
+    "bubbleDescription1": {
+      "type": "text"
+    },
+    "bubbleDescription2": {
+      "type": "text"
+    },
+    "bubbleDescription3": {
+      "type": "text"
+    },
+    "bubbleDescription4": {
+      "type": "text"
+    }
+  }
+}

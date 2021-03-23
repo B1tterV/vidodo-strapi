@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/horizontal-tour-cards",
+      "handler": "horizontal-tour-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/horizontal-tour-cards/count",
+      "handler": "horizontal-tour-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/horizontal-tour-cards/:id",
+      "handler": "horizontal-tour-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/horizontal-tour-cards",
+      "handler": "horizontal-tour-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/horizontal-tour-cards/:id",
+      "handler": "horizontal-tour-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/horizontal-tour-cards/:id",
+      "handler": "horizontal-tour-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

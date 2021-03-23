@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "horizontal_tour_cards",
+  "info": {
+    "name": "HorizontalTourCard",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sights": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "string"
+    },
+    "description2": {
+      "type": "string"
+    },
+    "footerDescription": {
+      "type": "string"
+    }
+  }
+}
