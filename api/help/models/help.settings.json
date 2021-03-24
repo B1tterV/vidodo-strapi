@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "helps",
+  "info": {
+    "name": "Help",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "title5": {
+      "type": "string"
+    },
+    "title6": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "description3": {
+      "type": "text"
+    },
+    "description4": {
+      "type": "text"
+    },
+    "description5": {
+      "type": "text"
+    },
+    "description6": {
+      "type": "text"
+    },
+    "bubbleTitle": {
+      "type": "string"
+    },
+    "bubbleDescription": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

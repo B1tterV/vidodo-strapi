@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cookies",
+  "info": {
+    "name": "Cookie"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slider1": {
+      "type": "string"
+    },
+    "slider2": {
+      "type": "string"
+    },
+    "slider3": {
+      "type": "string"
+    },
+    "slider4": {
+      "type": "string"
+    },
+    "slider5": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "text"
+    },
+    "text2": {
+      "type": "text"
+    },
+    "text3": {
+      "type": "text"
+    },
+    "text4": {
+      "type": "text"
+    },
+    "text5": {
+      "type": "text"
+    }
+  }
+}
