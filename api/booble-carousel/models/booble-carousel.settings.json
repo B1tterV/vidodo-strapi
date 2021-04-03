@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booble_carousels",
+  "info": {
+    "name": "BoobleCarousel",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "booblePicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

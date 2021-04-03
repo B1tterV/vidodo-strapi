@@ -56,6 +56,13 @@
     },
     "price": {
       "type": "string"
+    },
+    "combined": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string",
+      "default": "/"
     }
   }
 }

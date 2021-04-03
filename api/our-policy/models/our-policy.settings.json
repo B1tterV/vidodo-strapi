@@ -1,0 +1,255 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_policies",
+  "info": {
+    "name": "OurPolicy",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Slider1": {
+      "type": "string"
+    },
+    "Slider2": {
+      "type": "string"
+    },
+    "Slider3": {
+      "type": "string"
+    },
+    "Slider4": {
+      "type": "string"
+    },
+    "Slider1Title": {
+      "type": "string"
+    },
+    "Slider2Title": {
+      "type": "string"
+    },
+    "Slider3Title": {
+      "type": "string"
+    },
+    "Slider4Title": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle1": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle2": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle3": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle4": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle5": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle6": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle7": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle8": {
+      "type": "string"
+    },
+    "Slider1QuestionTitle9": {
+      "type": "string"
+    },
+    "Slider1QuestionDescription1": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription2": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription3": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription4": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription5": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription6": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription7": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription8": {
+      "type": "text"
+    },
+    "Slider1QuestionDescription9": {
+      "type": "text"
+    },
+    "Slider2QuestionTitle1": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle2": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle3": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle4": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle5": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle6": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle7": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle8": {
+      "type": "string"
+    },
+    "Slider2QuestionTitle9": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle1": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle2": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle3": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle4": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle5": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle6": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle7": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle8": {
+      "type": "string"
+    },
+    "Slider3QuestionTitle9": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle1": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle2": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle3": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle4": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle5": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle6": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle7": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle8": {
+      "type": "string"
+    },
+    "Slider4QuestionTitle9": {
+      "type": "string"
+    },
+    "Slider2QuestionDescription1": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription2": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription3": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription4": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription5": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription6": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription7": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription8": {
+      "type": "text"
+    },
+    "Slider2QuestionDescription9": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription1": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription2": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription3": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription4": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription5": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription6": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription7": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription8": {
+      "type": "text"
+    },
+    "Slider3QuestionDescription9": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription1": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription2": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription3": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription4": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription5": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription6": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription7": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription8": {
+      "type": "text"
+    },
+    "Slider4QuestionDescription9": {
+      "type": "text"
+    }
+  }
+}

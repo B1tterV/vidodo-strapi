@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/booble-carousels",
+      "handler": "booble-carousel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/booble-carousels/count",
+      "handler": "booble-carousel.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/booble-carousels/:id",
+      "handler": "booble-carousel.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/booble-carousels",
+      "handler": "booble-carousel.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/booble-carousels/:id",
+      "handler": "booble-carousel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/booble-carousels/:id",
+      "handler": "booble-carousel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
