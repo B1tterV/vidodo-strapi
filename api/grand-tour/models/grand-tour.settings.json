@@ -42,6 +42,9 @@
     },
     "all_inclusive_card": {
       "model": "excursion-card"
+    },
+    "tours_carousels": {
+      "collection": "tours-carousel"
     }
   }
 }

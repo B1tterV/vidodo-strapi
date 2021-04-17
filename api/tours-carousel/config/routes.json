@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tours-carousels",
+      "handler": "tours-carousel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tours-carousels/count",
+      "handler": "tours-carousel.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tours-carousels/:id",
+      "handler": "tours-carousel.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tours-carousels",
+      "handler": "tours-carousel.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tours-carousels/:id",
+      "handler": "tours-carousel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tours-carousels/:id",
+      "handler": "tours-carousel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
